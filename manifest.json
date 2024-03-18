@@ -6,7 +6,7 @@
   "description": "Adds Zyzzyva lexicon symbols to words",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/symbol-48.png"
   },
 
   "content_scripts": [
