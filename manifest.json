@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Lexicon Symbols",
+  "version": "1.0",
+
+  "description": "Adds Zyzzyva lexicon symbols to words",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["lexicon_symbols.js"]
+    }
+  ]
+}
